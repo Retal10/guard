@@ -20,19 +20,19 @@ class TitleWithMoreBtn extends StatelessWidget {
         children: <Widget>[
           TitleWithCustomUnderline(text: title),
           Spacer(),
-          Container(
-              height: 35,
-              width: size / 3,
-              child: FloatingActionButton.extended(
-                onPressed: () {},
-                icon: Icon(
-                  Icons.add,
-                  color: Colors.white,
-                ),
-                label: Text("Add Sensor"),
-                elevation: 20,
-                backgroundColor: kPrimaryColor,
-              )),
+          // Container(
+          //     height: 35,
+          //     width: size / 3,
+          //     child: FloatingActionButton.extended(
+          //       onPressed: () {},
+          //       icon: Icon(
+          //         Icons.add,
+          //         color: Colors.white,
+          //       ),
+          //       label: Text("Add Sensor"),
+          //       elevation: 20,
+          //       backgroundColor: kPrimaryColor,
+          //     )),
         ],
       ),
     );
